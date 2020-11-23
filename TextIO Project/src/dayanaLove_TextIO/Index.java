@@ -51,7 +51,7 @@ Collections.sort(list);
 LinkedHashSet<String> hashSet = new LinkedHashSet<>(list);
 ArrayList<String> duplicateFreeList = new ArrayList<>(hashSet);
 
-
+list = duplicateFreeList;
 return duplicateFreeList;
 }
 
