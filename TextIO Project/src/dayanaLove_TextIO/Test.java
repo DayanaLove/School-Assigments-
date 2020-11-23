@@ -23,7 +23,7 @@ public class Test {
 		System.out.println(index.listArray());
 		index.addWord("Apple");
 		System.out.println(index.listArray());
-	    index.writeIndexToFile("test3");
+	    index.writeIndexToFile("test4");
         
 		
 		
